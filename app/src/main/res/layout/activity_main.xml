@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/corFundo">
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,7 +14,7 @@
         android:layout_gravity="center_horizontal"
         android:text="Thems"
         android:textAllCaps="true"
-        android:textColor="#000"
+        android:textColor="@color/corFonte"
         android:textStyle="bold"
         android:textSize="30sp"
         android:layout_margin="20sp"
