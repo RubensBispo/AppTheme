@@ -6,8 +6,18 @@
         <!-- Secondary brand color. -->
         <item name="colorOnSecondary">@color/colorSecundary</item>
         <item name="textAllCaps">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/corFonte</item>
         <!-- Status bar color. -->
         <!--<item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="myStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#2c2c2c</item>
+        <item name="colorSecondary">#ccc</item>
+        <item name="colorAccent">#f4f4f4</item>
+
+
     </style>
 </resources>
