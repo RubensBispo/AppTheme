@@ -14,10 +14,15 @@
     </style>
 
     <style name="myStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#2c2c2c</item>
+        <item name="colorPrimary">#000000</item>
         <item name="colorSecondary">#ccc</item>
-        <item name="colorAccent">#f4f4f4</item>
+        <item name="colorAccent">#ccc</item>
+    </style>
 
-
+    <style name="temaStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="colorPrimary">#FFF44336</item>
+        <item name="colorSecondary">#FF473030</item>
+        <item name="colorAccent">#FF7C0B0B</item>
     </style>
 </resources>

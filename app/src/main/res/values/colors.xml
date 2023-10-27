@@ -3,8 +3,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#96B7D1</color>
     <color name="colorPrimary">#00796B</color>
-    <color name="colorSecundary">#B2DFDB</color>
+    <color name="colorSecundary">#FAFAFA</color>
     <color name="coloracent">#FFEB3B</color>
     <color name="corFonte">#212121</color>
     <color name="corFundo">#FF3AF6D7</color>
+
+
+    <color name="corPrimaria">#00796B</color>
+    <color name="corSecundaria">#FAFAFA</color>
+    <color name="corAccent">#504A14</color>
+    <color name="corDaFonte">#ECC03D</color>
+    <color name="corDeFundo">#70614A</color>
 </resources>

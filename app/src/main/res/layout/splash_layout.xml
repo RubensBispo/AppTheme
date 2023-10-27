@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".SplashActivity"
+    android:background="@color/corDeFundo"
+    android:layout_gravity="center_vertical">
+
 
     <ImageView
         android:layout_width="150dp"
@@ -15,32 +18,16 @@
         android:scaleType="centerCrop"
         android:src="#2c2c2c" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Insira seu E-mail"
-
-        android:inputType="textEmailAddress"
-        android:padding="20sp" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Insira sua senha"
-        android:inputType="textEmailAddress"
-        android:padding="20sp"
-    />
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Esqueceu a senha"
-        android:padding="20sp" />
-
-    <Button
+        android:text="Nome da empresa"
+        android:layout_gravity="center_horizontal"
+        android:padding="10sp" />
+    <ProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="20dp"
-        android:text="Acessar" />
+        android:layout_margin="20dp"/>
+
 </LinearLayout>
