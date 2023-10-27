@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".SplashActivity"
     android:background="@color/corDeFundo"
-    android:layout_gravity="center_vertical">
+    >
 
 
     <ImageView
